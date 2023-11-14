@@ -6,8 +6,9 @@
 
 ### 방법 1
 1. 해당 repository를 fork 하세요.
-2. 로컬에서 작업한 커밋을 fork한 repository에 push 하세요.
-5. Pull Request를 생성하여, 사전 미션을 제출해주세요.
+2. 아래 사전 미션 내용을 보고 답안을 마크다운 형식으로 작성하시고, `./mission/{nickName}` 디렉토리 저장해주세요.
+3. 로컬에서 작업한 커밋을 fork한 repository에 push 하세요.
+4. Pull Request를 생성하여, 사전 미션을 제출해주세요.
 
 ### 방법 2
 1. 해당 repository를 clone 하세요:
@@ -20,7 +21,8 @@ git checkout -b my-branch-xx
 ```
 3. 아래 사전 미션 내용을 보고 답안을 마크다운 형식으로 작성하시고, `./mission/{nickName}` 디렉토리 저장해주세요.
 
-4. 해당 브랜치를 푸쉬해주세요.
+4. 해당 브랜치를 푸쉬해주세요. 
+- 해당 레파지토리에 직접 푸쉬할 권한은 [Issues](https://github.com/drum-grammer/docker-pro-2312/issues/1)에 댓글로 아이디 남겨주시면 권한 부여해드립니다. 🙌
 ```
 git push -u origin my-branch-xx
 ```
