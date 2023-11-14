@@ -1,13 +1,14 @@
 # Docker : 나만의 도커 이미지 만들기 부터, 클라우드 배포까지!
-8월 원티드 프리 온보딩 챌린지 - docker 뽀개기
+12월 원티드 프리 온보딩 챌린지 - docker 뽀개기
 
 
 ## I. 사전 미션하는 법
 
 ### 방법 1
 1. 해당 repository를 fork 하세요.
-2. 로컬에서 작업한 커밋을 fork한 repository에 push 하세요.
-5. Pull Request를 생성하여, 사전 미션을 제출해주세요.
+2. 아래 사전 미션 내용을 보고 답안을 마크다운 형식으로 작성하시고, `./mission/{nickName}` 디렉토리 저장해주세요.
+3. 로컬에서 작업한 커밋을 fork한 repository에 push 하세요.
+4. Pull Request를 생성하여, 사전 미션을 제출해주세요.
 
 ### 방법 2
 1. 해당 repository를 clone 하세요:
@@ -21,11 +22,20 @@ git checkout -b my-branch-xx
 3. 아래 사전 미션 내용을 보고 답안을 마크다운 형식으로 작성하시고, `./mission/{nickName}` 디렉토리 저장해주세요.
 
 4. 해당 브랜치를 푸쉬해주세요.
+- 해당 레파지토리에 직접 푸쉬할 권한은 [Issues](https://github.com/drum-grammer/docker-pro-2312/issues/1)에 댓글로 아이디 남겨주시면 권한 부여해드립니다. 🙌
 ```
 git push -u origin my-branch-xx
 ```
 5. Pull Request를 생성하여, 사전 미션을 제출해주세요.
 
+### [공통] PR 생성 시, PR 화면 우측의 `Reviewers`, `Assignees`, `Labels`를 아래와 같이 등록해주세요
+✅ 지정하는 방법은 오른쪽의 톱니바퀴 아이콘을 클릭하시면 설정할 수 있습니다. </br>
+⚙️ 만약 톱니바퀴 설정 아이콘이 보이지 않으면 권한 이슈이니 [Issues](https://github.com/drum-grammer/docker-pro-2312/issues/1)에 댓글로 아이디 남겨주시면 권한 부여 해드리겠습니다.
+- Reviewers: drum-grammer [멘토 계정]
+- Assignees: 본인 계정
+- Labels: 사전 미션 과제
+
+![PR 이미지](https://github.com/drum-grammer/docker-pro-2312/assets/48014144/2b580a8b-8f6e-4448-9ea0-083d8544100c)
 
 ## II. 사전 미션
 1. 컨테이너 기술이란 무엇입니까? (100자 이내로 요약)
