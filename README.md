@@ -28,6 +28,13 @@ git push -u origin my-branch-xx
 ```
 5. Pull Request를 생성하여, 사전 미션을 제출해주세요.
 
+### [공통] PR 생성 시, PR 화면 우측의 `Reviews`, `Assignees`, `Labels`를 아래와 같이 등록해주세요
+
+- Reviews: drum-grammer
+- Assignees: 본인 계정
+- Labels: 사전 미션 과제
+
+![PR 이미지](https://github.com/drum-grammer/docker-pro-2312/assets/48014144/2b580a8b-8f6e-4448-9ea0-083d8544100c)
 
 ## II. 사전 미션
 1. 컨테이너 기술이란 무엇입니까? (100자 이내로 요약)
