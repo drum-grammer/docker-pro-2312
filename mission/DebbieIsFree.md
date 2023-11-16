@@ -26,4 +26,6 @@
 <br><br>
 
 4) 도커 설치
- - 이미지 pull request 
+ - 이미지 pull request
+ - <img width="618" alt="스크린샷 2023-11-16 오후 3 30 20" src="https://github.com/DebbieIsFree/board/assets/83392219/1f787409-568a-42ad-be23-3ff47c34fcfb">
+
