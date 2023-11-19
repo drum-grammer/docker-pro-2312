@@ -28,9 +28,9 @@ git push -u origin my-branch-xx
 ```
 5. Pull Request를 생성하여, 사전 미션을 제출해주세요.
 
-### [공통] PR 생성 시, PR 화면 우측의 `Reviews`, `Assignees`, `Labels`를 아래와 같이 등록해주세요
-
-- Reviews: drum-grammer
+### [공통] PR 생성 시, PR 화면 우측의 `Reviewers`, `Assignees`, `Labels`를 아래와 같이 등록해주세요
+(지정하는 방법은 오른쪽의 톱니바퀴 아이콘을 클릭하시면 설정할 수 있습니다.)
+- Reviewers: drum-grammer [멘토 계정]
 - Assignees: 본인 계정
 - Labels: 사전 미션 과제
 
