@@ -82,7 +82,7 @@ docker build -t hello-world .
 
 #### 4. 빌드한 도커 이미지를 실행합니다.
 ```shell
-docker run hello-world
+docker run hello-world 
 ```
 이 명령어는 hello-world라는 이름의 도커 이미지를 실행시켜 "Hello, World!"를 출력합니다.
 
