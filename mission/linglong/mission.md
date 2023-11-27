@@ -13,4 +13,5 @@
 - 관계: 도커 파일은 도커 이미지를 만들기 위한 설계도, 도커 이미지는 도커 컨테이너의 기반
   <br><br>
 
-### 4. [실전 미션] 도커 설치하기
+### 4. [실전 미션] 도커 설치하기!
+<img style="width:70%; margin-left:20px;" src="https://github.com/linglong67/docker-pro-2312/assets/88479739/9dc9176e-45e1-4983-b4a6-7b42f178c9c2"/>
