@@ -38,3 +38,6 @@ Docker Image란 컨테이너를 실행할 수 있는 실행파일, 설정 값들
 # II. 실전 미션
 
 ## 도커 설치하기
+
+
+![docker complate](https://github.com/bbakzi/docker_wanted/assets/128371819/af82c157-0af4-4a97-8ef4-9e97cf103653)
