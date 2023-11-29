@@ -14,3 +14,5 @@
 </ul>
 
 <h2> [실전 미션] 도커 설치하기 (참조: 도커 공식 설치 페이지) </h2>
+![image](https://github.com/seoyeonchoi/wanted-backend-docker/assets/71605276/dfdf7aac-daf1-4153-9fe8-d41aafe710a4)
+
