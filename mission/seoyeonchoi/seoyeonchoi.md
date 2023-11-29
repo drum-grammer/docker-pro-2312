@@ -14,5 +14,7 @@
 </ul>
 
 <h2> [실전 미션] 도커 설치하기 (참조: 도커 공식 설치 페이지) </h2>
-![image](사전과제_seoyeonchoi.png)
+<p align="center">
+ <img src = "./사전과제_seoyeonchoi.png">
+</p>
 
