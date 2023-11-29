@@ -12,4 +12,5 @@
 - 도커 컨테이너 : 도커이미지를 실행한 상태
 
 ## 4.[실전 미션] 도커 설치하기 (참조: 도커 공식 설치 페이지)
-<img width="1272" alt="스크린샷 2023-11-30 오전 12 08 20" src="https://github.com/jinsirie/TIL/assets/80724973/88ce7566-f6c2-4b04-b1ee-3c9ae17fca8a">
+<img width="720" alt="스크린샷 2023-11-30 오전 12 25 48" src="https://github.com/jinsirie/TIL/assets/80724973/fe0d42a2-c65e-49d7-9e63-7a37e75e960b">
+
