@@ -1,0 +1,23 @@
+# 기본 이미지로 fluentd의 최신 버전 사용
+FROM fluentd:latest
+
+# 이후의 명령어들을 root 사용자 권한으로 실행
+USER root
+
+# Elasticsearch 출력 플러그인 설치.
+# 이 플러그인은 Fluentd에서 Elasticsearch로 로그 데이터를 보내는 데 사용됩니다.
+RUN fluent-gem install fluent-plugin-elasticsearch
+
+# 태그 기반의 재작성 필터 플러그인 설치.
+# 이 플러그인은 로그 데이터의 태그를 재작성하는 데 사용되며, 복잡한 라우팅 및 필터링 규칙을 구현하는 데 유용합니다.
+RUN fluent-gem install fluent-plugin-rewrite-tag-filter
+
+
+# 이후의 명령어들을 fluent 사용자 권한으로 실행.
+# 보안상의 이유로 root가 아닌 사용자로 전환하는 것이 좋습니다.
+USER fluent
+
+# 컨테이너가 시작될 때 실행될 명령어 설정.
+# Fluentd 데몬을 시작하고, 특정 설정 파일을 사용하도록 지정합니다.
+CMD ["fluentd", "-c", "/fluentd/etc/fluentd/fluentd.conf"]
+
