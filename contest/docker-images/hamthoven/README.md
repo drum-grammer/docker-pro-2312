@@ -33,6 +33,12 @@ docker run -it hamthoven/adage:latest
     - [RUN, CMD, ENTRYPOINT 명령어의 개념과 차이점](https://choco-life.tistory.com/49)
     - [Dockerfile Entrypoint 와 CMD의 올바른 사용 방법](https://bluese05.tistory.com/77)
 
+- 파이썬 코드 참고
+    - [API 실습하기 (Kanye.rest, 명언 가져오기)](https://olivia-blackcherry.tistory.com/200)
+
+- Dockerfile 코드 참고
+    - [Python requests 모듈(module) 사용법](https://me2nuk.com/Python-requests-module-example/)
+
 ## 오류 상황 대처
 
 - 오류 안내를 포함한 run 결과
