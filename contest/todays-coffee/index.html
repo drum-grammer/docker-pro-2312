@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>커피 룰렛 돌리기</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <h1>오늘 커피 뭐 마실까?</h1>
+    <script>
+      function getResult() {
+        $.getJSON(
+          "https://api.openweathermap.org/data/2.5/weather?q=seoul&appid=bbf5520faf7fda4c3d2b194210275081&units=metric",
+          function (data, status, xhr) {
+            if (status !== "success") {
+              alert("Error fetching weather data");
+            } else {
+              let temp = data.main.temp;
+              console.log("Temperature in Seoul:", temp);
+
+              let ice;
+              if (temp < 10) ice = 0;
+              else ice = 1;
+
+              let coffee = Math.floor(Math.random() * 10) % 2;
+              let result;
+
+              if (ice == 0) {
+                if (coffee == 0) result = "핫 아메리카노";
+                else result = "핫 카페라떼";
+              } else {
+                if (coffee == 0) result = "아이스 아메리카노";
+                else result = "아이스 카페라떼";
+              }
+
+              alert(result);
+            }
+          }
+        );
+      }
+    </script>
+    <button onclick="getResult()">커피 고르기</button>
+  </body>
+</html>
