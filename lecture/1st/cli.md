@@ -29,7 +29,7 @@ docker pull httpd
 ```shell
  docker run httpd
  docker run --name secondContainer httpd
- docker run -p 8888:80 -v /Users/jk/wanted/2308/docker-pro-2308/lecture/1st:/usr/local/apache2/htdocs httpd
+ docker run -p 8888:80 -v /Users/jk/wanted/docker-pro-2312/lecture/1st:/usr/local/apache2/htdocs httpd
 ```
 
 ### 4. [Start one or more stopped containers](https://docs.docker.com/engine/reference/commandline/start/)
