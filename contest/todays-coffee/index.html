@@ -10,7 +10,7 @@
     <script>
       function getResult() {
         $.getJSON(
-          "https://api.openweathermap.org/data/2.5/weather?q=seoul&appid=bbf5520faf7fda4c3d2b194210275081&units=metric",
+          "https://api.openweathermap.org/data/2.5/weather?q=seoul&appid={apikey}&units=metric",
           function (data, status, xhr) {
             if (status !== "success") {
               alert("Error fetching weather data");
